@@ -65,8 +65,8 @@ xml_parser = XmlParser(
 
 Here is an example:
 ```python
-xml_path = os.path.join(ROOT_DIR, 'xml_files', 'mozart_no41_mv1.xml')
-output_dir = os.path.join(ROOT_DIR, 'output', 'mozart_no41_mv1')
+xml_path = os.path.join('xml_files', 'mozart_no41_mv1.xml')
+output_dir = os.path.join('output', 'mozart_no41_mv1')
 options = (
     ('CONVERT_TEMPORAL_ATTR', True),
     ('CONVERT_NOTE', True),
@@ -90,5 +90,7 @@ Command-line example:
 ```bash
 # xml_path argument is required; piece_name and output_dir are optional
 python xml_parser.py --xml_path ./xml_files/mozart_no41_mv1.xml
-python xml_parser.py --xml_path ./xml_files/mozart_no41_mv1.xml --piece_name mozart_no41_mv1 --output_dir ./output/mozart_no41_mv1  
+python xml_parser.py --xml_path ./xml_files/mozart_no41_mv1.xml \
+--piece_name mozart_no41_mv1 \
+--output_dir ./output/mozart_no41_mv1  
 ```
