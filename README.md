@@ -5,7 +5,6 @@ Extract notes of each instrument and each voice from a xml file
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contribution)
 - [License](#license)
 
 
@@ -94,3 +93,6 @@ python xml_parser.py --xml_path ./xml_files/mozart_no41_mv1.xml \
 --piece_name mozart_no41_mv1 \
 --output_dir ./output/mozart_no41_mv1  
 ```
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
